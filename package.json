@@ -1,0 +1,24 @@
+{
+    "name": "floorplanblock",
+    "description": "airtable desk management",
+    "version": "1.2.0",
+    "author": "reuben sua",
+    "dependencies": {
+        "@airtable/blocks": "1.5.1",
+        "node-fetch": "^2.6.1",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0"
+    },
+    "devDependencies": {
+        "@airtable/blocks-cli": "0.0.64",
+        "eslint": "^6.8.0",
+        "eslint-plugin-react": "^7.18.3",
+        "eslint-plugin-react-hooks": "^2.5.0"
+    },
+    "scripts": {
+        "lint"     : "eslint frontend",
+        "block"    : "block run",
+        "b:setup"  : "block set-api-key",
+        "b:release": "block release"
+    }
+}
